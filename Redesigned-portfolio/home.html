@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <div id="home"></div>
+    <header id="hero">
+      <nav>
+        <img src="/assets/logo.png" alt="" id="logo" style="width: 100px" />
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#aboutme">ABOUT</a></li>
+          <li><a href="#myskills">SKILLS</a></li>
+          <li><a href="#mywork">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <img
+          src="/assets/Group 1.png"
+          alt=""
+          id="profile-image"
+          style="width: 48px; height: 48px; border-radius: 50%; cursor: pointer"
+        />
+      </nav>
+
+      <section id="banner">
+        <div class="my-title">
+          <h1>Hello <span>I'm</span></h1>
+          <h1>Stephen N.</h1>
+          <p>
+            I'm a developer with a passion for web and mobile app design, I
+            always give my best to ensure that the best user experience is
+            provided.
+          </p>
+          <button class="btn">Hire me</button>
+
+          <div class="social-icon">
+            <a href="#"><img src="/assets/facebook.png" /></a>
+            <a href="#"><img src="/assets/instagram.png" /></a>
+            <a href="#"><img src="/assets/what.png" /></a>
+            <a href="#"><img src="/assets/twitter.png" /></a>
+          </div>
+        </div>
+        <div class="image-container column" id="imageContainer">
+          <img src="/assets/new profile pic.jpg" class="img" />
+        </div>
+      </section>
+    </header>
+
+    
+    <main id="aboutme">
+      <div id="parent">
+        <div class="about">
+          <h2>About me</h2>
+          <h1>Make your dream come true with me</h1>
+        </div>
+        <div class="about-side-text">
+          <p>
+            "design is not just what it looks like and feels like, design is how
+            it works"
+          </p>
+        </div>
+      </div>
+      <div class="sub-about-des">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore porro
+          Lorem ipsum dolor sit adipisicing elit. Accusantium laudantium quasi
+          repudiandae ea Lorem, ipsum dolor. reprehend vel Lorem ipsum dolor sit
+          amet. id quae inventore non animi optio ab libero, quas, velit cumque
+          totam rem dignissimos distinctio exercitationem reiciendis? Cumque
+          repellendus vel rem modi iure.Inventore consequatur accusantium
+          dolorum molestiae. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Minus aliquam vel excepturi nobis rit laboriosam.
+        </p>
+      </div>
+      <div id="myskills"></div>
+    </main>
+
+    <section class="p-skill">
+      <h2>My <span>Skills</span></h2>
+      <div class="skill">
+        <div class="inner-column">
+          <img src="/assets/icons8-html-5-48.png" alt="" />
+          <h2>HTML</h2>
+        </div>
+        <div class="inner-column">
+          <img src="/assets/icons8-css3-48.png" alt="" />
+          <h2>CSS</h2>
+        </div>
+        <div class="inner-column">
+          <img src="/assets/icons8-javascript-48.png" alt="" />
+          <h2>Javascript</h2>
+        </div>
+        <div class="inner-column">
+          <img src="/assets/icons8-php-48.png" alt="" />
+          <h2>PHP</h2>
+        </div>
+      </div>
+    </section>
+
+    <div id="mywork"></div>
+    <section id="work">
+      <header>
+        <h2><span>My</span> Work</h2>
+      </header>
+      <div id="flex">
+        <article>
+          <header>
+            <h3>Advertising a Brand</h3>
+          </header>
+          <video controls width="320">
+            <source
+              src="/assets/Untitled video - Made with Clipchamp.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </article>
+        <article>
+          <header>
+            <h3>Advertising a Brand</h3>
+          </header>
+          <video controls width="320">
+            <source
+              src="/assets/Untitled video - Made with Clipchamp (1).mp4"
+              type="video/mp4"
+            />
+          </video>
+        </article>
+        <article>
+          <header>
+            <h3>A video advert</h3>
+          </header>
+          <video controls width="320">
+            <source src="/assets/5.mp4" type="video/mp4" />
+          </video>
+        </article>
+      </div>
+      <div id="contact"></div>
+    </section>
+    
+
+    <section id="contact-container">
+      <div class="contact-section">
+        <div class="contact-form">
+          <h6>Get in Touch</h6>
+          <h2>We'd Love to Hear from You</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h6>Contact Info</h6>
+          <h2>Don't hesitate to reach out to us</h2>
+          <p>
+            Tell us how to get back to you, enter your details in the required
+            fields, and we will get back as soon as possible.
+          </p>
+          <div class="contact-details">
+            <div class="detail">
+              <img src="/assets/icons8-mail-50.png" alt="Email Icon" />
+              <p>email@example.com</p>
+            </div>
+            <div class="detail">
+              <img src="/assets/icons8-ringer-volume-50.png" alt="Phone Icon" />
+              <p>+123 456 7890</p>
+            </div>
+            <div class="detail">
+              <img src="/assets/icons8-location-50.png" alt="Location Icon" />
+              <p>1234 Street Name, City, Country</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section logo">
+          <img src="/assets/logo.png" alt="Your Logo" class="footer-logo">
+          <p>&copy; StenTech. 2024</p>
+        </div>
+    
+        <div class="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#myskills">Skills</a></li>
+            <li><a href="#aboutme">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#mywork">Works</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section contact">
+          <h3>Contact Us</h3>
+          <p><img src="/assets/icons8-location-50.png" alt=""style="width: 20px;">&nbsp;&nbsp; 20, Allen Ikeja Lagos Nigeria</p>
+          <p><img src="/assets/icons8-ringer-volume-50.png" alt=""style="width: 20px;"> &nbsp;&nbsp;+123 456 7890</p>
+          <p><img src="/assets/icons8-mail-50.png" alt=""style="width: 20px;">&nbsp; &nbsp; info@stephen.com</p>
+        </div>
+    
+        <div class="footer-section social">
+          <h3>Follow Us</h3>
+          <a href="#"><img src="/assets/facebook.png" alt=""></a>
+          <a href="#"><img src="/assets/twitter.png" alt=""></a>
+          <a href="#"><img src="/assets/instagram.png" alt=""></a>
+          <a href="#"><img src="/assets/what.png" alt=""></a>
+        </div>
+      </div>
+    </footer>
+    
+  </body>
+</html>
